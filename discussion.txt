@@ -1,0 +1,35 @@
+Discussion
+What are the advantages/disadvantages for a linked list in comparison to an array in terms of...
+
+...accessing an element (get operation)?
+...adding an element?
+...removing an element?
+...memory usage?
+
+...accessing an element (get operation)?
+
+Accessing an element for a linkedlist has a disadvantage compared to an array list. 
+Because it takes longer to find the element and access it. 
+This is because the address of the element to be retrieved will be found.
+
+...adding an element?
+
+Adding a linked list element is more advantageous than adding an element to an array list. 
+Because when the array list element is added, all the elements after the index added have to shift to the right. 
+This situation causes serious waste of time. In this case, it may cause serious loss of time and cost for very large lists. But for the linkedlist, 
+an element is added in between and only the addresses shown by the relevant node links change without changing the location of any other element.
+
+...removing an element?
+
+Removing a linked list element is more advantageous than removing an element to an array list. 
+Because when the array list element is removed, In case of deleting an element in arraylist, 
+all elements to the right of the deleted element have to shift to the left instead of the deleted element. 
+This situation causes serious time and cost loss.
+In this case, it may cause serious loss of time and cost for very large lists. But for the linkedlist, 
+an element is removed in between and only the addresses shown by the relevant node links change without changing the location of any other element.
+
+...memory usage?
+
+in memory usage, it is more advantageous arraylist than linkedlist. 
+Linkedlist takes up more space in memory because it holds both the address and the related value.
+but the arraylist only has one address. There will be a place for related values ​​inside.
